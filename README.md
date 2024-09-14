@@ -8,7 +8,7 @@
 git clone https://github.com/raj-rangani/techerudite-assessment.git
 ```
 
-### 2) Add the Environment variables creating .env file in the root
+### 2) Add the Environment variables creating `.env` file in the root
 
 ```
 DATABASE_URL=
@@ -22,4 +22,10 @@ ACCESS_TOKEN_EXPIRY=
 ```
 npx prisma generate
 npx prisma db push
+```
+
+### 4) Run the below command to start
+
+```
+pnpm dev
 ```
